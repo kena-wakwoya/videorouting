@@ -1,0 +1,70 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/out
+/public # If you're using a build tool that outputs to /public (e.g., Next.js, Vite with certain configs)
+
+# misc
+.DS_Store
+.env.local
+.env*.local
+.parcel-cache
+.cache
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+## yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.yml
+.yarn/plugins
+.yarn/releases
+.yarn/sdks
+.yarn/versions
+
+# editor directories and files
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.history
+
+# Log files
+*.log
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# macOS Finder files
+.DS_Store
+
+# IDE-specific files
+*.iml # IntelliJ IDEA files
+
+# Optional: If you use Storybook for component development
+.storybook/out
+
+# Optional: If you use a specific database or backend in your frontend dev environment (less common)
+# db.sqlite
+# *.db
+
+# Optional: If you're working with Docker files directly in your dev env
+# Dockerfile*.local
+# .dockerignore
