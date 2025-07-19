@@ -1,10 +1,10 @@
 
 ---
 
-## 📄 Final `README.md` with Local + VPS Instructions
+##  Video Routing Prototype Local + VPS Instructions
 
 
-# 🎥 Real-Time Admin/Client Camera Monitoring System
+#  Real-Time Admin/Client Camera Monitoring System
 
 This project enables live camera routing using:
 
@@ -15,7 +15,7 @@ This project enables live camera routing using:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -32,7 +32,7 @@ This project enables live camera routing using:
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 ```bash
 # Node.js and npm
@@ -93,7 +93,7 @@ npm run dev
 
 ---
 
-## 🌐 VPS DEPLOYMENT (Production Setup)
+## VPS DEPLOYMENT (Production Setup)
 
 ### 1. Backend Setup (API)
 
@@ -160,7 +160,7 @@ pm2 save                     # Save config for reboot
 
 To allow each client to broadcast their camera, you will use [VDO.Ninja](https://vdo.ninja)'s **"push"** mode.
 
-### ✅ Step-by-Step: Create Camera Stream for Client
+### Step-by-Step: Create Camera Stream for Client
 
 1. Open this in your browser (replace `client_123456` with actual client ID):
 
@@ -170,14 +170,12 @@ To allow each client to broadcast their camera, you will use [VDO.Ninja](https:/
 
 ```
 
-2. ✅ Allow camera/mic access in the browser
+2. Allow camera/mic access in the browser
 
 3. You’ll see a live camera preview — that means the stream is active
 
 4. Now when this client is **connected to the socket server**, admins can view the stream in real-time
 
----
-
 - So the admin doesn't need to install anything — just click and watch
 
----
+
